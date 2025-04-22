@@ -1,0 +1,62 @@
+<!-- level1.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Level 1 - Object Recognition</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive;
+            background-color: #fef6e4;
+            text-align: center;
+            padding: 20px;
+        }
+        .object-image {
+            width: 300px;
+            height: auto;
+            border-radius: 20px;
+        }
+        .label-text {
+            font-size: 2em;
+            margin: 15px 0;
+        }
+        .audio-button, .nav-button, .lang-toggle {
+            font-size: 1.2em;
+            padding: 10px 20px;
+            margin: 10px;
+            border-radius: 10px;
+            background-color: #ffcc70;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="top-bar">
+        <h1>🎓 Learn With Us</h1>
+        <button class="lang-toggle">Switch to Hindi</button>
+    </div>
+
+    <div class="content">
+        <img src="{{ object_image_url }}" alt="Object Image" class="object-image">
+        <div class="label-text">{{ object_name }}</div>
+        <button class="audio-button" onclick="playAudio()">🔊 Play</button>
+    </div>
+
+    <div class="navigation">
+        <button class="nav-button">⬅️ Previous</button>
+        <span>{{ current_index }} / {{ total_objects }}</span>
+        <button class="nav-button">Next ➡️</button>
+    </div>
+
+    <script>
+        function playAudio() {
+            var audio = new Audio("{{ audio_url }}");
+            audio.play();
+        }
+    </script>
+
+</body>
+</html>
