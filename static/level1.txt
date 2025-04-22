@@ -1,39 +1,40 @@
-Learning Levels & Flow - Educational Module Documentation
+LEARNING LEVELS & FLOW - EDUCATIONAL MODULE DOCUMENTATION
 ==========================================================
 
-Module: Level 1 - Visual & Audio Recognition
+MODULE: LEVEL 1 - VISUAL & AUDIO RECOGNITION
 --------------------------------------------
 
-**Objective:**  
-To help children identify common objects using visual cues and auditory narration in both English and Hindi, fostering bilingual vocabulary development and strengthening early cognitive skills.
+OBJECTIVE:
+To help children identify common objects using visual cues and auditory narration in both English and Hindi, 
+fostering bilingual vocabulary development and strengthening early cognitive skills.
 
-**Functionality Overview:**
+FUNCTIONALITY OVERVIEW:
 
-1. **Visual Display:**
+1. VISUAL DISPLAY:
    - An image of a familiar object (e.g., 🍎 Apple) is shown on the screen.
 
-2. **Audio Narration:**
+2. AUDIO NARRATION:
    - A voice-over announces the name of the object in both English and Hindi.
    - Example: “This is an apple.” / “यह एक सेब है।”
 
-3. **Interactive Options:**
+3. INTERACTIVE OPTIONS:
    - Users can repeat the audio narration.
    - Language toggle is available to switch between English and Hindi narration.
 
-**Key Skills Targeted:**  
+KEY SKILLS TARGETED:
 - Visual recognition  
 - Auditory processing  
 - Bilingual vocabulary building  
 - Early cognitive development
 
-**Intended Users:**  
+INTENDED USERS:
 Children aged 2–6 years in early learning or preschool environments.
 
-**Platform Considerations:**  
-- Compatible with tablets and desktop environments.  
+PLATFORM CONSIDERATIONS:
+- Compatible with tablets and desktop environments.
 - Requires speaker or headphone support for auditory output.
 
-**Future Enhancements:**  
-- Include additional languages for broader accessibility.  
-- Add interactive quizzes post-recognition.  
+FUTURE ENHANCEMENTS:
+- Include additional languages for broader accessibility.
+- Add interactive quizzes post-recognition.
 - Personalized voice recording option for parental involvement.
